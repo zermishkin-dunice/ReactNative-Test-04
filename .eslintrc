@@ -1,0 +1,20 @@
+{
+  "extends": ["airbnb", "react-app"],
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
+    "max-len": ["error", { "code": 120 }],
+    "import/no-unresolved": "off",
+    "global-require": 0,
+    "react/sort-comp": 0
+  },
+  "globals": {
+    "fetch": false
+  }
+}
