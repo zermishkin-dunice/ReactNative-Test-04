@@ -10,7 +10,7 @@
     "@expo/vector-icons": "latest",
     "expo": "~36.0.0",
     "expo-permissions": "latest",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prop-types": "latest",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
